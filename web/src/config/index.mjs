@@ -1,0 +1,1 @@
+export const BASE_URL = `https://thoughtful-foal-zipper.cyclic.app/api/v1/user`;
