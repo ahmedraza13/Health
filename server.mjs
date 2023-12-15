@@ -25,8 +25,8 @@ app.use(cors());
 
 //  routes
 const __dirname = path.resolve();
-app.use("/", express.static(path.join(__dirname, './web/dist')));
-app.use('*', express.static(path.join(__dirname, './web/dist')));
+app.use("/", express.static(path.join(__dirname, './web/build')));
+app.use('*', express.static(path.join(__dirname, './web/build')));
 app.use("/api/v1/user", router);
 
 //  port
