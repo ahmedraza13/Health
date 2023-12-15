@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.cyclic.pink_fuzzy_piglet.twa",
+        "sha256_cert_fingerprints": ["25:17:6A:B2:2F:19:09:99:C4:C9:5E:6D:8A:EC:8F:3E:0F:74:09:A1:0B:1D:94:86:99:67:FC:F8:3B:84:E5:32"]
+      }
+    }]
